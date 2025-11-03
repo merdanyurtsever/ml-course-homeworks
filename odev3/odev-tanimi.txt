@@ -1,0 +1,20 @@
+Amaç: farklı sınıflandırma modelleri(lojistik regresyon, karar ağaçları, knn svm) kullanarak:
+-sıınıflandırma problemi çöxmek
+-modellerin performansını değerlendirmek ve karşılaştırmak.
+Gereksinimler:
+-pandas, scikit-learn, numpy, matplotlib
+-Accuracy, recall, presicion, f-score metriklerini, 4 model için kullanıyoruz
+->hem train hem test için
+Veri konusu: memleketimizdeki işler. hedefimiz: iş türü
+-memleketimizde en cok istihdam edilen iş türlerini buluyoruz
+-en fazla 5 kategori
+->örnek azsa kategorileri birleştiriyoruz.
+-serbest meslek yazmıyoruz
+-işkur veya kariyer.net'ten gerçek verileri alıyoruz (uydurmak yok)
+-%70 eğitim %30 test
+->memleket şart!
+-öznitelikler ve sayısı bize kalmış.
+-örnek sayısı da bize kalmış
+-modellerin doğruluk skorları grafikle karşılaştırılacak.
+->model.classification isteniyor.
+-her model için accuracy,confusion matrix ve sınıflandırma raporu.
