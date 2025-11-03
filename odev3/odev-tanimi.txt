@@ -18,3 +18,4 @@ Veri konusu: memleketimizdeki işler. hedefimiz: iş türü.
 -Modellerin doğruluk skorları grafikle karşılaştırılacak.
 ->model.classification isteniyor.
 -Her model için accuracy, confusion matrix ve sınıflandırma raporu.
+-Çıktı olarak teslim edilecek.
