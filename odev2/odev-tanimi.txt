@@ -1,14 +1,14 @@
 Sahibinden.com gibi bir yerden mahallemizdeki (flexible) evlerin (flexible) fiyatlarına bakıyoruz(en az 50 tane).
 -En az 10 feature (daha fazla olabilir) seçip fiyat tahminleme yapıyoruz.
--kategorik verileri encoding ile continious yapıyoruz.
--en az 4 farklı regresyo modeli, her birinin 4 metrik için sonuçları, tablo halinde yazdırılacak.
+-Kategorik verileri encoding ile continious yapıyoruz.
+-En az 4 farklı regresyo modeli, her birinin 4 metrik için sonuçları, tablo halinde yazdırılacak.
 -Negatif r² skoru istemiyoruz.
--tablo |->x_alg, y_alg, z_alg, w_alg
+-Tablo |->x_alg, y_alg, z_alg, w_alg
        |  MAE | MSE | MedAE | R²
 -10 tane daha örnek buluyoruz.
--ayno tabloları onlar için de yapıyoruz.
--en iyi algoritmanın, grafik halinde model.intercept_, std_err ve model.coef_ sonuçlarını yazdırıyoruz.
---eksik aidat verilerini knn ile doldurabiliriz iyi olur.
--encoding yaparken hangi değişkene hangi değeri atadığımızı yazıyoruz.
--hangi şehrin hangi özelliklerini topladık? tablolar ve sonuçları, 1 sayfalık .ıktı olacak.
--sonuçlar üzerinden soru sorulacak.
+-Ayno tabloları onlar için de yapıyoruz.
+-En iyi algoritmanın, grafik halinde model.intercept_, std_err ve model.coef_ sonuçlarını yazdırıyoruz.
+--Eksik aidat verilerini knn ile doldurabiliriz iyi olur.
+-Encoding yaparken hangi değişkene hangi değeri atadığımızı yazıyoruz.
+-Hangi şehrin hangi özelliklerini topladık? Tablolar ve sonuçları, 1 sayfalık çıktı olacak.
+-Sonuçlar üzerinden soru sorulacak.
