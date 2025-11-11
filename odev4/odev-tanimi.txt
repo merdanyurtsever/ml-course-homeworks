@@ -1,0 +1,12 @@
+Şehirlerde yaşam tarzı segmentasyonu.
+veri= tüik yaşam koşulları, kaggle şehir nüfusu ve gelir verileri
+amaç=şehirleri sosyoekonomik özelliklerine göre gruplara ayırmak.
+yöntem: k-means, silhuette score ile k seçimi, pca ile görselleştirme
+çıktı:"türkiye'de şehirlerin benzer yaşam profilleri"
+
+-veri setini yükle
+-eksik veri ve ölçekleme
+-uygun kümeleme algoritmalarını dene: k-means, dbscan, gmm(gaussian mixture model)
+-k sayısını silhoutte/elbow ile belirle
+-pca/t-sne ile 2d görselleştirme
+-kümelerin yorumlanması ve raporlanması
